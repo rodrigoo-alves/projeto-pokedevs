@@ -1,0 +1,47 @@
+@media (max-width: 750px) {
+  .pokedevs {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .pokedev-card {
+    max-width: 300px;
+  }
+
+  .info-card {
+    padding: 60px 30px 30px;
+    margin-top: -50px;
+  }
+
+  .info-card h3 {
+    font-size: 16px;
+  }
+
+  .pokedev-nav {
+    max-width: 360px;
+  }
+
+  .pokedev-nav .pokedev {
+    width: 45%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 0;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .pokedev-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+/* @media (max-width: 1280px) {
+  body {
+      padding: 0 40px;
+      background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+  }
+} */
